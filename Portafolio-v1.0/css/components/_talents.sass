@@ -1,0 +1,151 @@
+.container_talents
+    position: relative
+    display: grid
+    grid-template-rows: 20% 80%
+    width: 90%
+    height: 500px
+    margin: auto
+    margin-top: 50px
+    margin-bottom: 20px
+    border-radius: 10px
+    background-color: white
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5)
+    .container_title-talents
+        height: 130px
+        .title-talents
+            width: 32%
+            height: 100%
+            margin: auto
+            text-align: center
+            padding: 30px
+            border-bottom: solid 1px $bg_banner
+            .icon-title_talents
+                background-color: #D4D3D3
+                width: 35px
+                height: 35px
+                margin: auto
+                border-radius: 50%
+                i
+                    display: flex
+                    justify-content: center
+                    font-size: 25px
+                    padding-top: 4px
+            .icon-title_talents:hover
+                transform: scale(1.2)
+            h2
+                margin-top: 15px
+                margin-bottom: 5px
+                margin-left: -10px
+                font-size: 35px
+                font-weight: 600
+                letter-spacing: 1px
+    .info_important-talents
+        height: 370px
+        margin-top: 30px
+        .info-talents
+            width: 95%
+            height: 85%
+            margin: auto
+            margin-top: 25px
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            .talents
+                width: 130px
+                height: 130px
+                margin: auto
+                margin-top: 15px
+                position: relative
+                display: grid
+                justify-items: center
+                .circular-progress
+                    position: absolute
+                    width: 90px
+                    height: 90px
+                    background-color: orange
+                    border-radius: 50%
+                    display: grid
+                    place-items: center
+                    z-index: 1
+                .circular-progress:before
+                    content: ""
+                    position: absolute
+                    width: 84%
+                    height: 84%
+                    background-color: #fff
+                    border-radius: 50%
+                    z-index: -1
+                    .value-container
+                        position: relative
+                        font-size: 50px
+                        color: #231c3d
+                        z-index: 100
+                h4
+                    /*background-color: aquamarine
+                    padding-top: 100px
+                    letter-spacing: 1px
+                .circular-progress_2
+                    position: absolute
+                    width: 90px
+                    height: 90px
+                    background-color: orange
+                    border-radius: 50%
+                    display: grid
+                    place-items: center
+                    z-index: 1
+                .circular-progress_2:before
+                    content: ""
+                    position: absolute
+                    width: 84%
+                    height: 84%
+                    background-color: #fff
+                    border-radius: 50%
+                    z-index: -1
+                    .value-container_2
+                        position: relative
+                        font-size: 50px
+                        color: #231c3d
+                        z-index: 100
+                .circular-progress_3
+                    position: absolute
+                    width: 90px
+                    height: 90px
+                    background-color: orange
+                    border-radius: 50%
+                    display: grid
+                    place-items: center
+                    z-index: 1
+                .circular-progress_3:before
+                    content: ""
+                    position: absolute
+                    width: 84%
+                    height: 84%
+                    background-color: #fff
+                    border-radius: 50%
+                    z-index: -1
+                    .value-container_3
+                        position: relative
+                        font-size: 50px
+                        color: #231c3d
+                        z-index: 100
+                .circular-progress_4
+                    position: absolute
+                    width: 90px
+                    height: 90px
+                    background-color: orange
+                    border-radius: 50%
+                    display: grid
+                    place-items: center
+                    z-index: 1
+                .circular-progress_4:before
+                    content: ""
+                    position: absolute
+                    width: 84%
+                    height: 84%
+                    background-color: #fff
+                    border-radius: 50%
+                    z-index: -1
+                    .value-container_4
+                        position: relative
+                        font-size: 50px
+                        color: #231c3d
+                        z-index: 100

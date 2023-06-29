@@ -1,0 +1,103 @@
+@import './components/_variables'
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Dosis','Varela Round', sans-serif
+    scroll-behavior: smooth
+
+.img
+    position: relative
+    background: url('../img/liquido_abs.jpg') no-repeat
+    background-position: center
+    background-size: cover
+    /*transform: translateZ(-0.5px)
+    height: 100vh
+    z-index: -1
+
+@import './components/_header'
+
+.container_banner
+    width: 100%
+    height: 40%
+    margin: auto
+    margin-top: 170px
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    top: 0
+    .banner
+        overflow: hidden
+        .title
+            font-size: 45px
+            font-weight: 600
+        .circle
+            background: $bg_banner
+            border-radius: 50%
+            width: 8px
+            height: 8px
+            margin-left: 99px
+            margin-top: -19px
+            margin-bottom: 30px
+        .line
+            background: $bg_banner
+            width: 50px
+            height: 3px
+            margin-bottom: -15px
+        .name
+            font-weight: 400
+            margin-left: 60px
+            margin-bottom: 20px
+        h1
+            font-family: $font_poppins
+        .text
+            position: relative
+            color: $bg_banner
+            font-size: 35px
+            font-weight: 500
+            font-family: $font_poppins
+        .text.first-text
+            color: black
+        .text.sec-text:before
+            content: ""
+            position: absolute
+            top: 0
+            left: 0
+            height: 100%
+            width: 100%
+            background-color: white
+            border-left: 2px solid #5B5B5B
+            animation: animate 4s steps(12) infinite
+        .download
+            background-color: $bg_banner
+            width: 170px
+            padding: 15px
+            margin-top: 15px
+            border-radius: 10px
+            cursor: pointer
+            i
+                color: ghostwhite
+                font-size: 20px
+            a
+                margin-left: 10px
+                text-decoration: none
+                color: black
+                font-weight: 700
+        .efect
+            transform: perspective(1px) translateZ(0)
+        .efect:hover, .efect:focus, .efecto:active
+            animation: efectButton 1s ease-in-out 1
+
+main
+    background-color: #e3edf7
+
+@import './components/_about'
+@import './components/_talents'
+@import './components/_projects'
+@import './components/_contact'
+@import './components/_footer'
+
+@import './components/_keyframes'
+@import './components/_responsive'

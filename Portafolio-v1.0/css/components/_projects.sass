@@ -1,0 +1,93 @@
+.container_projects
+    position: relative
+    display: grid
+    grid-template-rows: 10% 90%
+    width: 90%
+    height: 800px
+    margin: auto
+    margin-top: 50px
+    margin-bottom: 20px
+    border-radius: 10px
+    background-color: white
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5)
+    .container_title-projects
+        height: 100px
+        .title-projects
+            width: 32%
+            height: 100%
+            margin: auto
+            text-align: center
+            padding: 10px
+            border-bottom: solid 1px $bg_banner
+            .icon-title_projects
+                background-color: #D4D3D3
+                width: 35px
+                height: 35px
+                margin: auto
+                border-radius: 50%
+                i
+                    display: flex
+                    justify-content: center
+                    font-size: 25px
+                    padding-top: 4px
+            .icon-title_projects:hover
+                transform: scale(1.2)
+            h2
+                margin-bottom: 5px
+                font-size: 35px
+                font-weight: 600
+                letter-spacing: 1px
+    .info-projects
+        display: grid
+        grid-template-rows: repeat(2, 50%)
+        margin-top: 20px
+        .projects
+            width: 500px
+            height: 315px
+            margin: auto
+            overflow: hidden
+            position: relative
+            border-radius: 10px
+            .img-projects
+                width: 100%
+                height: 100%
+                object-fit: cover
+            .img_body-projects
+                width: 100%
+                height: 100%
+                top: 0
+                right: -100%
+                position: absolute
+                background: #1f3d4738
+                backdrop-filter: blur(5px)
+                color: white
+                padding: 20px
+                display: flex
+                flex-direction: column
+                justify-content: center
+                transition: 2s
+                .img_title
+                    font-size: 30px
+                    font-weight: 500
+                .img_subtitle
+                    text-transform: capitalize
+                    font-size: 14px
+                    font-weight: 300
+                .img_info
+                    font-size: 16px
+                    line-height: 20px
+                    margin: 15px 0
+                    font-weight: 400
+                .img_button
+                    width: 90px
+                    color: black
+                    font-weight: 500
+                    background: $bg_banner
+                    padding: 5px 20px
+                    border-radius: 5px
+                    text-transform: capitalize
+                    border: none
+                    outline: none
+                    cursor: pointer
+        .projects:hover .img_body-projects
+            right: 0
