@@ -146,6 +146,7 @@ header .navbar .menu {
 }
 .container_banner .banner {
   overflow: hidden;
+  padding: 3px;
 }
 .container_banner .banner .title {
   font-size: 45px;
@@ -241,7 +242,7 @@ main {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 45px;
 }
 .container_about .img-about .border_img-about {
   width: 242px;
@@ -695,6 +696,7 @@ main {
 .container_contact .item-contact .submit-form_contact {
   background: #80BCFF;
   height: 500px;
+  padding-top: 15px;
 }
 .container_contact .item-contact .submit-form_contact .third-text_contact {
   font-size: 25px;
